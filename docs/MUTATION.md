@@ -36,7 +36,7 @@ var designer = new NamelessDesigner()
 ```csharp
 var designer = new NamelessDesigner()
     .UsingSource(s => 
-        .AddNames("harry", "hermione", "ron", "hagrid")")
+        .AddNames("harry", "hermione", "ron", "hagrid")
         .AddMutation(m => m
             .IfLengthLess(4)
             .Append("son"))
